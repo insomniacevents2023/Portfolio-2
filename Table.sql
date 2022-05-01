@@ -6,7 +6,7 @@ CREATE TABLE blockbuster.stock (
 	director_lastname VARCHAR (255),
 	director_firstname VARCHAR (255),
     genre VARCHAR (255),
-    PRIMARY KEY(dvd_id)
+    PRIMARY KEY(movie_id)
 );
 
 INSERT INTO blockbuster.stock(movie_id, movie_name, director_lastname, director_firstname, genre) VALUES(0, 'Pulp Fiction', 'Tarantino', 'Quentin', 'Crime/Drama');
