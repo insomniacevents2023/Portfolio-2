@@ -1,6 +1,6 @@
 CREATE DATABASE blockbuster;
 
-CREATE TABLE blockbuster.stock (
+CREATE TABLE blockbuster.inventory (
 	movie_id INT(11),
     movie_name VARCHAR (255),
 	director_lastname VARCHAR (255),
@@ -9,4 +9,4 @@ CREATE TABLE blockbuster.stock (
     PRIMARY KEY(movie_id)
 );
 
-INSERT INTO blockbuster.stock(movie_id, movie_name, director_lastname, director_firstname, genre) VALUES(0, 'Pulp Fiction', 'Tarantino', 'Quentin', 'Crime/Drama');
+INSERT INTO blockbuster.inventory(movie_id, movie_name, director_lastname, director_firstname, genre) VALUES(0, 'Pulp Fiction', 'Tarantino', 'Quentin', 'Crime/Drama');
