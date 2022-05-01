@@ -54,14 +54,14 @@
         }
     }
 
-    function deleteMovie() {
+    function rentMovie() {
         global $connection;
         if (isset($_POST["movie_id"]) &&
             isset($_POST["movie_name"])) {
                 $movie_id = intval($_POST["movie_id"]);
                 $movie_name = htmlspecialchars($_POST["movie_name"]);
                 if($connection != null) {
-                    $delete = "DELETE FROM stock WHERE movie_name = '{$movie_name}'";
+                    $delete = "DELETE FROM inventory WHERE movie_name = '{$movie_name}'";
                     mysqli_query($connection, $delete);
                 }
             }

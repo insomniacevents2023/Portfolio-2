@@ -9,7 +9,7 @@
     <body>
     <h2>Current Movie Inventory</h2>
     <form action="index.php" method="POST">
-        <h3>Add a Movie to Our Inventory:</h3>
+        <h3>Return a Movie to Our Inventory:</h3>
         <dl>
             <dt><label>Movie ID:</label></dt>
                 <dd><input type="number" id="movie_id" name="movie_id"></input></dd>

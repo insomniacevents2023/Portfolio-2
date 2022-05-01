@@ -7,7 +7,7 @@
         <title>Block Buster Movies!</title>
     </head>
     <body>
-        <h2>Are we out of a particular Movie?</h2>
+        <h2>Looking to rent a Movie?</h2>
         <form action="rent.php" method="POST">
             <h3>Rent a Movie:</h3>
                 <dl>
@@ -23,6 +23,6 @@
         MovieTable();
         rentMovie();
         close();
-        echo("<br><a href='index.php'>Return to Home</a>");
+        echo("<br><a href='index.php'>Check Out</a>");
     ?>
 </html>
